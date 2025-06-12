@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Confirmação</title></head>
+<body>
+<h2>Dados do Aluno</h2>
+<p>Nome: <span th:text="${aluno.nome}"></span></p>
+<p>Idade: <span th:text="${aluno.idade}"></span></p>
+<p>Email: <span th:text="${aluno.email}"></span></p>
+<p>Curso: <span th:text="${aluno.curso}"></span></p>
+<a th:href="@{/}">Voltar</a>
+</body>
+</html>
